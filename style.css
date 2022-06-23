@@ -1,0 +1,115 @@
+ul li a 
+{
+    color: lightcyan;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    margin-right: 30px;
+}
+
+li 
+{
+    display: inline;
+}
+
+.sticky
+{ 
+    background-color: rgb(182, 62, 102);
+    position: sticky;
+    top: 0%;
+    text-align: center;
+    padding: 2px;
+}
+
+.dropbtn
+{
+    margin: 1.9%;
+    background-color: limegreen;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position:absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content:hover
+{
+    background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+    background-color: lightcoral;
+    color: black;
+}
+     
+#table
+{
+    font-family: fantasy;
+    width: 100%;
+}
+
+#table th
+{
+    padding: 20px;
+    background-color: lightsalmon;
+
+}
+
+#table td
+{
+   background-color: aquamarine;
+}
+
+#table td:hover 
+{
+    background-color: antiquewhite;
+}
+
+#overflow
+{
+    margin-top:20px; margin-left: 25px;
+    background-color: lightgreen;
+    color: black;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+img
+{
+    margin-top: 10px;
+    opacity: 0.9;
+}
